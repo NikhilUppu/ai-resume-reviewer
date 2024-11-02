@@ -2,6 +2,8 @@
 
 import { FileText } from 'lucide-react';
 import { ThemeToggle } from './theme-toggle';
+import { Github } from 'lucide-react';
+import Link from 'next/link';
 
 export function Navbar() {
   return (
@@ -13,7 +15,18 @@ export function Navbar() {
             AI Resume Reviewer
           </span>
         </div>
-        <ThemeToggle />
+
+        <div className="flex items-center">
+          <Link
+            href="https://github.com/pragusga25/ai-resume-reviewer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github className="h-6 w-6 text-primary mr-4" />
+          </Link>
+
+          <ThemeToggle />
+        </div>
       </div>
     </nav>
   );
