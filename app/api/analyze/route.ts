@@ -9,6 +9,8 @@ import mime from 'mime';
 import fs from 'fs';
 import { ratelimit } from '@/lib/rate-limit';
 
+const IS_PROD = process.env.NODE_ENV === 'production';
+
 // Initialize Vertex AI
 const vertex = createVertex({
   project: process.env.GOOGLE_PROJECT_ID,
@@ -90,7 +92,11 @@ export async function POST(req: NextRequest) {
 
     const buffer = Buffer.from(await file.arrayBuffer());
 
-    const uploadDir = join(process.cwd(), 'public', 'uploads');
+    let uploadDir = join(process.cwd(), 'public', 'uploads');
+    if (!IS_PROD) {
+      uploadDir = '/tmp';
+    }
+
     await ensureDirectoryExists(uploadDir);
 
     const uniqueSuffix = `${Date.now()}-${Math.round(Math.random() * 1e9)}`;
