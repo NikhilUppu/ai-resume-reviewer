@@ -60,19 +60,19 @@ async function ensureDirectoryExists(path: string) {
 }
 
 export async function POST(req: NextRequest) {
-  const ip = req.ip ?? req.headers.get('x-forwarded-for') ?? 'localhost';
-  const { success, remaining } = await ratelimit.limit(`resume-reviewer-${ip}`);
+  // const ip = req.ip ?? req.headers.get('x-forwarded-for') ?? 'localhost';
+  // const { success, remaining } = await ratelimit.limit(`resume-reviewer-${ip}`);
 
-  if (!success) {
-    return NextResponse.json(
-      {
-        error:
-          'You have exceeded the maximum number of requests allowed. Try again in 1 hour.',
-        remaining,
-      },
-      { status: 429 }
-    );
-  }
+  // if (!success) {
+  //   return NextResponse.json(
+  //     {
+  //       error:
+  //         'You have exceeded the maximum number of requests allowed. Try again in 1 hour.',
+  //       remaining,
+  //     },
+  //     { status: 429 }
+  //   );
+  // }
 
   let filePath: string | null = null;
   try {

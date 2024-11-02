@@ -36,12 +36,9 @@ export function AnalysisSection({
             </p>
           )}
           {hasStrengths && (
-            <ul className="space-y-2">
-              {strengths.map((strength, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span className="text-sm sm:text-base">{strength}</span>
-                </li>
+            <ul className="space-y-2 list-disc list-inside marker:text-primary">
+              {strengths.map((strength) => (
+                <li key={strength}>{strength}</li>
               ))}
             </ul>
           )}
@@ -57,12 +54,9 @@ export function AnalysisSection({
             </p>
           )}
           {hasImrpovements && (
-            <ul className="space-y-2">
-              {improvements.map((improvement, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <span className="text-primary mt-1">•</span>
-                  <span className="text-sm sm:text-base">{improvement}</span>
-                </li>
+            <ul className="space-y-2 list-disc list-inside marker:text-primary">
+              {improvements.map((improvement) => (
+                <li key={improvement}>{improvement}</li>
               ))}
             </ul>
           )}
