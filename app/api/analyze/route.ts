@@ -93,7 +93,7 @@ export async function POST(req: NextRequest) {
     const buffer = Buffer.from(await file.arrayBuffer());
 
     let uploadDir = join(process.cwd(), 'public', 'uploads');
-    if (!IS_PROD) {
+    if (IS_PROD) {
       uploadDir = '/tmp';
     }
 
