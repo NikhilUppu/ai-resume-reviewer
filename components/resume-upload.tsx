@@ -9,7 +9,7 @@ import { toast } from 'sonner';
 
 export function ResumeUpload({ onUpload }: { onUpload: (file: File) => void }) {
   const [uploading, setUploading] = useState(false);
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState(1);
 
   const onDrop = useCallback(
     (acceptedFiles: File[]) => {
@@ -17,9 +17,13 @@ export function ResumeUpload({ onUpload }: { onUpload: (file: File) => void }) {
       if (file) {
         setUploading(true);
         // Simulate upload progress
-        let progress = 0;
+        let progress = 1;
         const interval = setInterval(() => {
           progress += 10;
+          if (progress >= 100) {
+            progress = 100;
+          }
+
           setProgress(progress);
           if (progress === 100) {
             clearInterval(interval);
@@ -55,7 +59,7 @@ export function ResumeUpload({ onUpload }: { onUpload: (file: File) => void }) {
         {uploading ? (
           <>
             <FileText className="w-52 h-12 text-primary animate-pulse" />
-            <Progress value={progress} className="w-[60%]" />
+            <Progress value={progress} max={100} className="w-[60%]" />
           </>
         ) : (
           <>
