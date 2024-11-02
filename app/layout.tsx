@@ -6,6 +6,7 @@ import { Toaster } from '@/components/ui/sonner';
 import OgImage from '../public/banner.jpeg';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -87,6 +88,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
