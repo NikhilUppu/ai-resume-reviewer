@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NAU Campus Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #chatbox {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 400px;
+            overflow-y: scroll;
+            background-color: #f9f9f9;
+        }
+        .user { color: blue; margin: 5px 0; }
+        .bot { color: green; margin: 5px 0; }
+        #inputArea { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>NAU Campus Chatbot</h1>
+    <div id="chatbox"></div>
+    <div id="inputArea">
+        <input type="text" id="userInput" placeholder="Type your message here..." size="50">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        // Show welcome message when page loads
+        document.addEventListener("DOMContentLoaded", function () {
+            const chatbox = document.getElementById("chatbox");
+            const welcomeMsg = "Hi, I am your NAU chatbot! How can I help you?";
+            chatbox.innerHTML += '<div class="bot"><strong>Bot:</strong> ' + welcomeMsg + '</div>';
+        });
+
+        function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            if (userInput.trim() === '') return;
+
+            const chatbox = document.getElementById('chatbox');
+            chatbox.innerHTML += '<div class="user"><strong>You:</strong> ' + userInput + '</div>';
+
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                chatbox.innerHTML += '<div class="bot"><strong>Bot:</strong> ' + data.response + '</div>';
+                chatbox.scrollTop = chatbox.scrollHeight;
+            });
+
+            document.getElementById('userInput').value = '';
+        }
+    </script>
+</body>
+</html>

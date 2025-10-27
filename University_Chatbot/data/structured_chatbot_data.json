@@ -1,0 +1,938 @@
+{
+  "greetings": {
+    "_comment": "Handles basic greetings from the user.",
+    "pairs": [
+      {
+        "keyword": "hello",
+        "response": "Hello! How can I assist you today?"
+      },
+      {
+        "keyword": "hi",
+        "response": "Hi! Ask me anything about campus or academics."
+      },
+      {
+        "keyword": "hey",
+        "response": "Hey there! Need help with something?"
+      },
+      {
+        "keyword": "good morning",
+        "response": "Good morning! How can I help you today?"
+      },
+      {
+        "keyword": "good afternoon",
+        "response": "Good afternoon! What would you like to know?"
+      },
+      {
+        "keyword": "hii",
+        "response": "Hi! Ask me anything about campus or academics."
+      }
+    ]
+  },
+  "it_help_support": {
+    "_comment": "IT Help & Student Tech Support",
+    "pairs": [
+      {
+        "keyword": "wifi",
+        "response": "Having trouble with Wi-Fi? Visit the Student Technology Center or check the IT system status page at https://in.nau.edu/its/"
+      },
+      {
+        "keyword": "tech help",
+        "response": "For general tech support, you can reach the ITS Help Desk at (928) 523-1511 or visit the Student Technology Center."
+      },
+      {
+        "keyword": "Information Technology",
+        "response": "Need IT assistance? Call the ITS Help Desk at (928) 523-1511 or check https://in.nau.edu/its/ for help."
+      },
+      {
+        "keyword": "password reset",
+        "response": "To reset your password, head to the NAU Password Portal: https://password.nau.edu/"
+      },
+      {
+        "keyword": "login",
+        "response": "Having login issues? Try resetting your password at https://password.nau.edu/ or call ITS at (928) 523-1511."
+      },
+      {
+        "keyword": "email not working",
+        "response": "If your NAU email isn't working, check the IT system status or contact tech support at (928) 523-1511."
+      },
+      {
+        "keyword": "portal issue",
+        "response": "For issues with the student portal, visit https://in.nau.edu/its/ or contact the ITS Help Desk."
+      }
+    ]
+  },
+  "student_clubs": {
+    "_comment": "Student Clubs & Organizations",
+    "pairs": [
+      {
+        "keyword": "club",
+        "response": "There are over 300 student clubs you can join \u2014 from robotics to drama!"
+      },
+      {
+        "keyword": "student org",
+        "response": "Explore active student organizations through the True Blue Connects portal."
+      },
+      {
+        "keyword": "join club",
+        "response": "Interested in joining a club? Browse options on the True Blue Connects portal and get involved!"
+      },
+      {
+        "keyword": "campus activities",
+        "response": "Campus activities include club events, social gatherings, and more \u2014 check the calendar on the Student Life page!"
+      },
+      {
+        "keyword": "social group",
+        "response": "Clubs and social groups are a great way to meet people and connect on campus!"
+      }
+    ]
+  },
+  "campus_safety": {
+    "_comment": "Campus Safety",
+    "pairs": [
+      {
+        "keyword": "safety",
+        "response": "Stay safe and be aware of your surroundings. Download the NAU Safe App for alerts and safety tips."
+      },
+      {
+        "keyword": "police",
+        "response": "Campus Police are available 24/7 at (928) 523-3611 for any assistance."
+      },
+      {
+        "keyword": "emergency",
+        "response": "In an emergency, use blue light emergency phones located throughout campus or call Campus Police at (928) 523-3611."
+      },
+      {
+        "keyword": "blue light",
+        "response": "The blue light emergency phones on campus connect you directly to Campus Police in case of emergency."
+      },
+      {
+        "keyword": "security",
+        "response": "Campus security is always active. For non-emergency help, you can also contact Campus Police."
+      },
+      {
+        "keyword": "lost and found",
+        "response": "Lost something? Check with Campus Safety or the Union Info Desk to see if it\u2019s been turned in."
+      }
+    ]
+  },
+  "fees": {
+    "_comment": "Provides information about tuition fees, payment deadlines, and fee structure.",
+    "pairs": [
+      {
+        "keyword": "fees",
+        "response": "Tuition fees are due at the beginning of each semester. You can find detailed info in the student portal."
+      },
+      {
+        "keyword": "tuition",
+        "response": "Tuition amounts vary based on your program. Visit the financial services page to view current rates."
+      },
+      {
+        "keyword": "fee structure",
+        "response": "The complete fee structure is available on the NAU Financial Services website."
+      },
+      {
+        "keyword": "payment deadline",
+        "response": "Fee payment deadlines are usually at the start of the semester. Check your portal for the exact date."
+      },
+      {
+        "keyword": "semester fees",
+        "response": "Semester fees cover tuition, student services, and more. Refer to the portal or financial office for breakdowns."
+      },
+      {
+        "keyword": "fee payment",
+        "response": "You can pay your fees online through the student portal. Multiple payment methods are supported."
+      },
+      {
+        "keyword": "late fee",
+        "response": "A late fee may apply if payment is not made on time. Contact the finance department for assistance."
+      },
+      {
+        "keyword": "installment",
+        "response": "Looking for installment options? Some payment plans are available\u2014check with Financial Services for eligibility."
+      }
+    ]
+  },
+  "food_services": {
+    "_comment": "Information about food spots on campus: Hotspot (North side) and Dubois (South side).",
+    "pairs": [
+      {
+        "keyword": "food",
+        "response": "Looking for food on campus? Head to the Hotspot (North side) or Dubois (South side) for a variety of options."
+      },
+      {
+        "keyword": "Hotspot",
+        "response": "The Hotspot offers fast food, coffee, and more. Open weekdays from 7 AM to 9 PM on the North side of campus."
+      },
+      {
+        "keyword": "Dubois",
+        "response": "Dubois features healthy meals and vegetarian options. It\u2019s open from 8 AM to 8 PM on the South side."
+      },
+      {
+        "keyword": "campus dining",
+        "response": "Campus dining includes both Hotspot and Dubois. Use your meal plan or pay with cash/card at either location."
+      },
+      {
+        "keyword": "restaurants",
+        "response": "Hotspot and Dubois function like on-campus restaurants with rotating menus. Check the dining app for updates!"
+      },
+      {
+        "keyword": "cafeteria",
+        "response": "The campus cafeterias, Hotspot and Dubois, offer diverse menus daily. Open throughout the week."
+      },
+      {
+        "keyword": "meal plan",
+        "response": "Meal plans are accepted at Hotspot and Dubois. You can also pay by card or cash if needed."
+      },
+      {
+        "keyword": "menu",
+        "response": "Special meals and seasonal menus are available. Check the NAU dining app for today\u2019s food options!"
+      },
+      {
+        "keyword": "dining hours",
+        "response": "Dining hours vary: Hotspot (7 AM\u20139 PM), Dubois (8 AM\u20138 PM). Hours may differ on weekends and holidays."
+      }
+    ]
+  },
+  "cie": {
+    "_comment": "Information about the Center for International Education (CIE) for international students.",
+    "pairs": [
+      {
+        "keyword": "CIE",
+        "response": "The Center for International Education (CIE) supports international students with resources and guidance."
+      },
+      {
+        "keyword": "international students",
+        "response": "CIE provides services and events tailored for international students, from academic help to cultural support."
+      },
+      {
+        "keyword": "study abroad",
+        "response": "Thinking about studying abroad? CIE can help you explore global programs and application steps."
+      },
+      {
+        "keyword": "student visa",
+        "response": "Need visa help? CIE assists with F-1/J-1 student visa guidance, renewals, and regulations."
+      },
+      {
+        "keyword": "cultural exchange",
+        "response": "CIE hosts cultural exchange events and activities to help students connect globally and locally."
+      },
+      {
+        "keyword": "international support",
+        "response": "CIE offers comprehensive support for international students\u2014advising, events, and academic services."
+      },
+      {
+        "keyword": "language support",
+        "response": "Looking to improve your English? CIE provides language workshops and conversation circles."
+      },
+      {
+        "keyword": "orientation",
+        "response": "CIE organizes orientation programs to help international students transition smoothly to campus life."
+      },
+      {
+        "keyword": "cie website",
+        "response": "For full details about CIE services, visit: https://nau.edu/center-international-education/"
+      }
+    ]
+  },
+  "ip": {
+    "_comment": "Information about the International Pavilion (IP), where international student orientation programs are held.",
+    "pairs": [
+      {
+        "keyword": "IP",
+        "response": "The International Pavilion (IP) is a hub for international student activities, workshops, and orientation programs."
+      },
+      {
+        "keyword": "International Pavilion",
+        "response": "The International Pavilion hosts events and services to help international students integrate and thrive."
+      },
+      {
+        "keyword": "student orientation",
+        "response": "New international students can attend orientation sessions at the IP to learn about life at NAU."
+      },
+      {
+        "keyword": "international program",
+        "response": "The IP is home to many international programs, including cultural exchange, student support, and academic prep."
+      },
+      {
+        "keyword": "new student orientation",
+        "response": "Orientation at the IP covers everything from visa guidance to academic expectations and cultural activities."
+      },
+      {
+        "keyword": "IP events",
+        "response": "The IP hosts events like cultural nights, workshops, and mixers for international and domestic students."
+      },
+      {
+        "keyword": "orientation schedule",
+        "response": "For IP orientation schedules and event details, check the campus portal or visit: https://nau.edu/center-international-education/international-house/pavilion/"
+      },
+      {
+        "keyword": "cultural events",
+        "response": "IP frequently organizes cultural events where students can share traditions, food, and performances."
+      },
+      {
+        "keyword": "meet people",
+        "response": "Looking to meet fellow international students? The IP is the perfect place to connect and make friends."
+      }
+    ]
+  },
+  "courses": {
+    "_comment": "list of courses for subjects",
+    "pairs": [
+      {
+        "keyword": [
+          "Computer Science",
+          "cse"
+        ],
+        "response": "Data Structures,Program Pradigms,Large scale Data Structures"
+      }
+    ]
+  },
+  "sodexo_hr": {
+    "_comment": "Information about Sodexo-related queries, including the HR office contact at North Campus.",
+    "pairs": [
+      {
+        "keyword": "Sodexo",
+        "response": "Sodexo manages campus dining services and employee operations. For help, contact the HR office at North Campus."
+      },
+      {
+        "keyword": "HR",
+        "response": "The HR office handles all Sodexo-related employee inquiries and services. It\u2019s located on the North Campus."
+      },
+      {
+        "keyword": "meal services",
+        "response": "Have questions about meal services? The Sodexo HR office can guide you on meal plans and dining options."
+      },
+      {
+        "keyword": "campus dining",
+        "response": "For campus dining concerns or feedback, Sodexo\u2019s HR office on North Campus is your go-to resource."
+      },
+      {
+        "keyword": "employee inquiries",
+        "response": "Sodexo employee inquiries, such as scheduling or job concerns, should be directed to the HR office."
+      },
+      {
+        "keyword": "HR North campus",
+        "response": "The Sodexo HR office is on North Campus, open Monday to Friday from 9 AM to 5 PM."
+      },
+      {
+        "keyword": "Sodexo help",
+        "response": "Need assistance with Sodexo services? Reach out to their HR team via the campus portal or in person at North Campus."
+      },
+      {
+        "keyword": "dining complaints",
+        "response": "To report an issue or complaint about campus dining, contact the Sodexo HR office directly."
+      }
+    ]
+  },
+  "library": {
+    "_comment": "Provides information about library services, timings, and resources available.",
+    "pairs": [
+      {
+        "keyword": "library",
+        "response": "The Cline Library is a central hub for study, research, and resources. Open 8 AM\u201310 PM weekdays, 10 AM\u20136 PM weekends."
+      },
+      {
+        "keyword": "books",
+        "response": "You can borrow books for up to two weeks. Don't forget to renew them online if needed!"
+      },
+      {
+        "keyword": "study room",
+        "response": "Need a quiet space? Book a study room at the library\u2014just check at the front desk or online."
+      },
+      {
+        "keyword": "library hours",
+        "response": "Library hours are 8 AM to 10 PM on weekdays, and 10 AM to 6 PM on weekends."
+      },
+      {
+        "keyword": "library services",
+        "response": "The library offers borrowing services, digital access, study rooms, and academic support."
+      },
+      {
+        "keyword": "borrow books",
+        "response": "Books can be checked out for two weeks. You can renew them through your student portal."
+      },
+      {
+        "keyword": "journals",
+        "response": "Access academic journals and research databases through the library website using your student login."
+      },
+      {
+        "keyword": "online resources",
+        "response": "Digital books, databases, and research tools are available 24/7 via https://nau.edu/library/"
+      },
+      {
+        "keyword": "library website",
+        "response": "For full library resources and tools, visit: https://nau.edu/library/"
+      }
+    ]
+  },
+  "bookstore": {
+    "_comment": "Provides information about the campus bookstore, available products, and purchasing options.",
+    "pairs": [
+      {
+        "keyword": "bookstore",
+        "response": "The campus bookstore has textbooks, electronics, school supplies, and more. You can shop in person or online."
+      },
+      {
+        "keyword": "buy books",
+        "response": "You can buy or rent textbooks from the bookstore. Visit in person or access it through the student portal."
+      },
+      {
+        "keyword": "rent books",
+        "response": "The bookstore offers both purchase and rental options for textbooks\u2014great for saving money!"
+      },
+      {
+        "keyword": "electronics",
+        "response": "Looking for tech? The bookstore sells laptops, chargers, and other electronics\u2014check for student deals!"
+      },
+      {
+        "keyword": "stationery",
+        "response": "Need pens, notebooks, or other supplies? The bookstore has a wide range of stationery for all your academic needs."
+      },
+      {
+        "keyword": "campus store",
+        "response": "The campus store is your go-to spot for books, gear, gadgets, and NAU merchandise."
+      },
+      {
+        "keyword": "purchase items",
+        "response": "You can buy items from the bookstore either online or at the physical location on campus."
+      },
+      {
+        "keyword": "bookstore website",
+        "response": "For full product listings and online orders, visit: https://in.nau.edu/campus-services-and-activities/bookstore/"
+      },
+      {
+        "keyword": "student discount",
+        "response": "Check the bookstore for student discounts on electronics, textbooks, and school supplies!"
+      }
+    ]
+  },
+  "transit_services": {
+    "_comment": "Provides information about public transportation, university transit cards, and external city services.",
+    "pairs": [
+      {
+        "keyword": "metro",
+        "response": "Metro and local bus options are available to students for convenient city-wide travel."
+      },
+      {
+        "keyword": "mountain line",
+        "response": "The Mountain Line bus service connects major areas in Flagstaff, including NAU. Route 10 runs alongside campus."
+      },
+      {
+        "keyword": "subway",
+        "response": "Flagstaff doesn\u2019t have a subway, but you can get around using city buses like the Mountain Line."
+      },
+      {
+        "keyword": "train",
+        "response": "For intercity travel, the Amtrak station is nearby. Check their website for schedules and tickets."
+      },
+      {
+        "keyword": "city bus",
+        "response": "City buses like the Mountain Line are free with your student transit pass. Route 10 serves the campus directly."
+      },
+      {
+        "keyword": "public transport",
+        "response": "Public transport is student-friendly in Flagstaff\u2014use the Transit app for live tracking and route info."
+      },
+      {
+        "keyword": "transit pass",
+        "response": "Students get discounted transit passes\u2014apply via the university portal or visit the transportation desk."
+      },
+      {
+        "keyword": "bus card",
+        "response": "You can recharge your bus card at the kiosk near the Student Union building or online."
+      },
+      {
+        "keyword": "transit app",
+        "response": "Download the Transit app to track bus arrivals in real time and plan your routes around town."
+      },
+      {
+        "keyword": "trip planning",
+        "response": "Need help planning your trip? Use the campus app or talk to the info desk at the Union building."
+      }
+    ]
+  },
+  "academic_calendar": {
+    "_comment": "Provides details about the academic schedule and important dates.",
+    "pairs": [
+      {
+        "keyword": "academic calendar",
+        "response": "You can find the full academic calendar on the official university site: https://in.nau.edu/registrar/important-dates/"
+      },
+      {
+        "keyword": "holidays",
+        "response": "Official holidays and breaks are listed on the academic calendar page."
+      },
+      {
+        "keyword": "break",
+        "response": "Winter break begins mid-December and runs through early January."
+      },
+      {
+        "keyword": "course catalog",
+        "response": "The course catalog with academic schedules is available at: https://nau.edu/catalog/"
+      },
+      {
+        "keyword": "semester",
+        "response": "The Fall semester usually starts in late August and ends mid-December. Check the calendar for exact dates."
+      },
+      {
+        "keyword": "start date",
+        "response": "Classes for the Fall 2024 semester begin on August 21st."
+      },
+      {
+        "keyword": "vacation",
+        "response": "Vacations include Winter Break, Spring Break, and official holidays. Check the calendar for specific dates."
+      },
+      {
+        "keyword": "important dates",
+        "response": "Visit https://in.nau.edu/registrar/important-dates/ for all key academic deadlines and events."
+      }
+    ]
+  },
+  "assignments": {
+    "_comment": "Helps users with assignment deadlines and related info.",
+    "pairs": [
+      {
+        "keyword": "assignment",
+        "response": "Check your course LMS or Canvas portal for assignment details and instructions."
+      },
+      {
+        "keyword": "due date",
+        "response": "Due dates for assignments are usually listed in your course syllabus or Canvas portal."
+      },
+      {
+        "keyword": "deadline",
+        "response": "Make sure to submit before the deadline to avoid penalties. Check Canvas or ask your professor for exact dates."
+      },
+      {
+        "keyword": "project",
+        "response": "Project timelines and milestones are usually shared in class or on your course portal."
+      },
+      {
+        "keyword": "submission",
+        "response": "Assignment submissions are handled through Canvas. Make sure to double-check the file format and submission status."
+      },
+      {
+        "keyword": "quiz",
+        "response": "You can find quiz dates and formats in the course syllabus or announcements on Canvas."
+      },
+      {
+        "keyword": "syllabus",
+        "response": "Most professors list assignments, quizzes, and due dates in the course syllabus."
+      }
+    ]
+  },
+  "exam_info": {
+    "_comment": "Provides information about exams, quizzes, and schedules.",
+    "pairs": [
+      {
+        "keyword": "exam",
+        "response": "You can find your exam schedule on the student portal. Don't forget to check your course announcements for updates."
+      },
+      {
+        "keyword": "exams",
+        "response": "Final exams are usually held during the last two weeks of the semester. Check your syllabus for the exact dates."
+      },
+      {
+        "keyword": "test",
+        "response": "Tests may vary by course. Refer to your Canvas portal or contact your instructor for details."
+      },
+      {
+        "keyword": "final",
+        "response": "Finals are typically scheduled in the last week of the term. You can find the full exam calendar in your student portal."
+      },
+      {
+        "keyword": "midterm",
+        "response": "Midterm exams are generally held halfway through the semester. Your instructor or syllabus will have the schedule."
+      },
+      {
+        "keyword": "quiz",
+        "response": "Quiz dates and formats can be found in your syllabus or Canvas course announcements."
+      },
+      {
+        "keyword": "exam format",
+        "response": "Exam formats (multiple choice, essay, etc.) are usually outlined in the syllabus or explained by your professor."
+      }
+    ]
+  },
+  "professors": {
+    "_comment": "Helps locate professor info such as contact or office hours.",
+    "pairs": [
+      {
+        "keyword": "professor",
+        "response": "You can find faculty contact info in the university directory or the course syllabus."
+      },
+      {
+        "keyword": "faculty",
+        "response": "Faculty contact details and office locations are available through the campus directory."
+      },
+      {
+        "keyword": "teacher",
+        "response": "Need to reach your teacher? Check your course page or university directory for their email."
+      },
+      {
+        "keyword": "instructor",
+        "response": "Instructor details including email and office hours are usually shared in your course portal."
+      },
+      {
+        "keyword": "office hours",
+        "response": "Professors typically post their office hours in the syllabus or on the course LMS."
+      },
+      {
+        "keyword": "AIS",
+        "response": "Contact Professor Tayyaba Shaheen for AIS-related questions and support."
+      },
+      {
+        "keyword": "email professor",
+        "response": "You can email your professor using the address listed in the course syllabus or directory."
+      }
+    ]
+  },
+  "departments": {
+    "_comment": "Information about university departments and their contacts.",
+    "pairs": [
+      {
+        "keyword": "department",
+        "response": "Each academic department has its own contact info listed on the university portal."
+      },
+      {
+        "keyword": "CS department",
+        "response": "The Computer Science department is located in the SICS building. You can find faculty details on the departmental site."
+      },
+      {
+        "keyword": "engineering",
+        "response": "Engineering departments offer tutoring hours and faculty office hours \u2014 check the portal for details."
+      },
+      {
+        "keyword": "science dept",
+        "response": "Science department contacts and course info can be found in the main academic building or online."
+      },
+      {
+        "keyword": "SICS",
+        "response": "Visit the SICS building for counseling, professor office hours, and tech-related department queries."
+      },
+      {
+        "keyword": "who to contact",
+        "response": "Not sure who to contact? Visit your department\u2019s page on the portal or reach out to the front desk of your academic building."
+      },
+      {
+        "keyword": "tutoring hours",
+        "response": "Tutoring hours vary by department. Check with your department or course page for available slots."
+      }
+    ]
+  },
+  "career": {
+    "_comment": "Gives guidance about internships, jobs, and resume help.",
+    "pairs": [
+      {
+        "keyword": "internship",
+        "response": "Looking for internships? The Career Center can help you find opportunities and polish your application."
+      },
+      {
+        "keyword": "career",
+        "response": "Visit the Career Center for career counseling, resume help, and job search strategies."
+      },
+      {
+        "keyword": "job",
+        "response": "Job listings are available on the career portal. You can also find part-time and on-campus job opportunities there."
+      },
+      {
+        "keyword": "placement",
+        "response": "Our placement services connect students with top recruiters. Make sure your resume is up-to-date!"
+      },
+      {
+        "keyword": "resume",
+        "response": "Need help with your resume? Career advisors offer free review sessions and tips to improve it."
+      },
+      {
+        "keyword": "cv",
+        "response": "CV and resume writing guides are available at the Career Center or online through the student portal."
+      },
+      {
+        "keyword": "cover letter",
+        "response": "Crafting a cover letter? Attend our writing workshops or book a one-on-one session with a career coach."
+      },
+      {
+        "keyword": "interview",
+        "response": "You can schedule mock interviews with career advisors to boost your confidence and improve your skills."
+      },
+      {
+        "keyword": "career fair",
+        "response": "Don\u2019t miss the upcoming career fairs each semester. Great way to meet employers and explore job options!"
+      }
+    ]
+  },
+  "graduation": {
+    "_comment": "Helps users with graduation-related queries.",
+    "pairs": [
+      {
+        "keyword": "graduation",
+        "response": "Graduation applications are typically due the semester before you plan to graduate. Check the registrar\u2019s page for deadlines."
+      },
+      {
+        "keyword": "grad",
+        "response": "Getting ready to grad? Make sure you've applied on time and reviewed ceremony details!"
+      },
+      {
+        "keyword": "ceremony",
+        "response": "The graduation ceremony is usually held in May at the stadium. Invite your family and friends!"
+      },
+      {
+        "keyword": "apply to graduate",
+        "response": "To apply for graduation, log in to your Louie account and navigate to the 'Apply to Graduate' section."
+      },
+      {
+        "keyword": "apply",
+        "response": "To apply Please visit http.Nau.edu."
+      },
+      {
+        "keyword": "cap and gown",
+        "response": "Don\u2019t forget to rent or purchase your cap and gown before the ceremony. Deadlines apply!"
+      },
+      {
+        "keyword": "commencement",
+        "response": "Commencement details including times, location, and dress code are posted on the official NAU commencement website."
+      }
+    ]
+  },
+  "tech_support": {
+    "_comment": "Tech-related issues like Wi-Fi, login, or devices.",
+    "pairs": [
+      {
+        "keyword": "wifi",
+        "response": "Having trouble with Wi-Fi? Try connecting to Eduroam first. If issues persist, visit the tech helpdesk in the library."
+      },
+      {
+        "keyword": "internet",
+        "response": "If you're experiencing internet issues on campus, connect to Eduroam or visit IT Support for assistance."
+      },
+      {
+        "keyword": "laptop",
+        "response": "Need help with your laptop? The tech desk in the library offers basic troubleshooting support."
+      },
+      {
+        "keyword": "printer",
+        "response": "Campus printers are available in the library and select labs. If one isn\u2019t working, report it to IT Support."
+      },
+      {
+        "keyword": "tech issue",
+        "response": "For any tech-related issues, contact IT at support@university.edu or stop by the helpdesk in the library."
+      },
+      {
+        "keyword": "can't login",
+        "response": "If you can't log in, try resetting your password via the student portal. Still stuck? Contact IT support."
+      },
+      {
+        "keyword": "password reset",
+        "response": "To reset your password, use the 'Forgot Password' link on the login page or contact tech support for help."
+      }
+    ]
+  },
+  "health": {
+    "_comment": "Medical and mental health services.",
+    "pairs": [
+      {
+        "keyword": "health",
+        "response": "Visit the campus health center near the student union for general checkups, prescriptions, and care."
+      },
+      {
+        "keyword": "doctor",
+        "response": "Need to see a doctor? You can book appointments through the student portal or visit the campus clinic directly."
+      },
+      {
+        "keyword": "clinic",
+        "response": "The clinic is located next to the student union and is open on weekdays for student healthcare services."
+      },
+      {
+        "keyword": "mental health",
+        "response": "Mental health counseling is available for free. Book a session online or through the student support center."
+      },
+      {
+        "keyword": "counseling",
+        "response": "We offer individual and group counseling sessions \u2014 just schedule one online or walk in during office hours."
+      },
+      {
+        "keyword": "sick",
+        "response": "Feeling unwell? Visit the health center or call ahead to speak with a nurse."
+      },
+      {
+        "keyword": "medical",
+        "response": "Medical services include checkups, lab tests, and prescriptions \u2014 all available on campus."
+      },
+      {
+        "keyword": "emergency",
+        "response": "In case of emergency, visit the HLC center or call campus security immediately."
+      },
+      {
+        "keyword": "appointment",
+        "response": "Appointments can be made online via your student portal. Walk-ins are accepted for urgent cases."
+      }
+    ]
+  },
+  "scholarships": {
+    "_comment": "Scholarship and financial aid support.",
+    "pairs": [
+      {
+        "keyword": "scholarship",
+        "response": "Apply for scholarships on the university's financial aid portal. Opportunities are listed year-round."
+      },
+      {
+        "keyword": "financial aid",
+        "response": "Financial aid includes loans, grants, and work-study programs. Check the portal for eligibility and application steps."
+      },
+      {
+        "keyword": "grant",
+        "response": "Grants are typically need-based and don\u2019t need to be repaid. Apply through the financial aid office."
+      },
+      {
+        "keyword": "aid",
+        "response": "Need help paying for college? Start with the financial aid office \u2014 they\u2019ll guide you through scholarships, loans, and grants."
+      },
+      {
+        "keyword": "money",
+        "response": "Looking for funding options? Financial aid advisors can help you explore all available money-saving opportunities."
+      },
+      {
+        "keyword": "tuition help",
+        "response": "There are several forms of tuition assistance available \u2014 both need-based and merit-based."
+      },
+      {
+        "keyword": "deadline",
+        "response": "Scholarship and aid deadlines are usually in March. Apply early through the financial aid portal."
+      },
+      {
+        "keyword": "application",
+        "response": "Scholarship applications can be submitted through your student portal. Make sure your documents are updated."
+      }
+    ]
+  },
+  "housing": {
+    "_comment": "Info about on-campus housing and hostels.",
+    "pairs": [
+      {
+        "keyword": "hostel",
+        "response": "NAU offers various on-campus housing options that include shared and private rooms in residence halls."
+      },
+      {
+        "keyword": "housing",
+        "response": "You can apply for on-campus housing through the official housing portal. Make sure to submit your preferences early."
+      },
+      {
+        "keyword": "dorm",
+        "response": "Dormitories at NAU include amenities like laundry, study areas, and social lounges."
+      },
+      {
+        "keyword": "room",
+        "response": "Room assignments are based on your preferences and availability. Log into the housing portal to check your status."
+      },
+      {
+        "keyword": "residence",
+        "response": "Residence halls are located across campus \u2014 each with its own unique community and facilities."
+      },
+      {
+        "keyword": "move in",
+        "response": "Move-in usually happens a week before classes start. Check your email for specific dates and instructions."
+      },
+      {
+        "keyword": "stay",
+        "response": "Need long-term or break-period housing? Reach out to the campus living office for special stay options."
+      },
+      {
+        "keyword": "maintenance",
+        "response": "Having an issue in your room? Submit a maintenance request through the housing portal or contact your RA."
+      },
+      {
+        "keyword": "roommate",
+        "response": "Roommate requests can be made during the application process. Both parties must confirm the request."
+      }
+    ]
+  },
+  "study_help": {
+    "_comment": "Resources for tutoring and academic help.",
+    "pairs": [
+      {
+        "keyword": "study",
+        "response": "The university offers dedicated study zones in the library and academic buildings. Quiet and group areas available."
+      },
+      {
+        "keyword": "tutor",
+        "response": "You can sign up for tutoring sessions through the Learning Assistance Center. They cover a wide range of subjects."
+      },
+      {
+        "keyword": "help",
+        "response": "Need academic help? Visit the tutoring center or ask your professor during office hours."
+      },
+      {
+        "keyword": "learning",
+        "response": "Interactive learning tools and resources are available on Canvas and the academic portal."
+      },
+      {
+        "keyword": "doubt",
+        "response": "Have a doubt? Tutors and peer mentors are available in most departments to help clarify course material."
+      },
+      {
+        "keyword": "extra help",
+        "response": "Looking for extra help outside class? Join study groups or connect with academic mentors through the student portal."
+      },
+      {
+        "keyword": "mentoring",
+        "response": "Peer mentoring programs are available for most majors. Check with your department for enrollment details."
+      },
+      {
+        "keyword": "homework",
+        "response": "Stuck on homework? Attend drop-in tutoring hours or use the discussion forums on Canvas."
+      }
+    ]
+  },
+  "sports_recreation": {
+    "_comment": "Details about gym, sports facilities, and recreation opportunities.",
+    "pairs": [
+      {
+        "keyword": "gym",
+        "response": "The campus recreation center is open daily and has full gym facilities, including classes."
+      },
+      {
+        "keyword": "sports",
+        "response": "You can sign up for intramural sports through the campus rec portal."
+      },
+      {
+        "keyword": "recreation",
+        "response": "Recreation events like hiking, yoga, and tournaments are posted on the rec center website."
+      },
+      {
+        "keyword": "fitness",
+        "response": "Fitness classes are offered in the evenings \u2014 check the schedule online or at the rec desk."
+      }
+    ]
+  },
+  "student_id": {
+    "_comment": "Answers questions related to student ID cards, access, and replacements.",
+    "pairs": [
+      {
+        "keyword": "student id",
+        "response": "Your student ID can be used for library access, meal swipes, and events."
+      },
+      {
+        "keyword": "card",
+        "response": "Lost your student ID card? Visit the card services desk to request a replacement."
+      },
+      {
+        "keyword": "nau id",
+        "response": "NAU ID is used for login and services \u2014 don\u2019t share it with others!"
+      },
+      {
+        "keyword": "access",
+        "response": "Some buildings require your ID for access after hours. Always keep it with you!"
+      }
+    ]
+  },
+  "default": {
+    "_comment": "Fallback if no keywords matched.",
+    "keywords": [],
+    "responses": [
+      "I didn\u2019t quite get that. Try asking about classes, exams, food, or clubs!",
+      "Hmm\u2026 not sure what you mean. Can you rephrase?",
+      "I'm here to help \u2014 try a topic like \u2018scholarships\u2019 or \u2018transport\u2019. \ud83e\udd16"
+    ]
+  }
+
+}
